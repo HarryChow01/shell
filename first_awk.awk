@@ -1,5 +1,7 @@
 #! /usr/bin/awk -f
 
+
+
 # cat /etc/passwd | awk -F":" '/zhou/ {print $1"\t"$7}'   #匹配带zhou的行
 # awk -F ':' 'BEGIN {count=0;} {name[count] = $1;count++;}; END{for (i = 0; i < NR; i++) print i, name[i]}' /etc/passwd
 # match func puts all pattern to arry
